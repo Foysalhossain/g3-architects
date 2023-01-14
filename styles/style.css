@@ -73,4 +73,52 @@ header {
     border-style: none;
     border-radius: 5px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+/* main area style */
+
+/* feature list style */
+.features-list {
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.feature-list-img {
+    /* width: 50%; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.feature-list-img img {
+    width: 100%;
+}
+
+.feature-list-title {
+    font-size: 35px;
+    color: #727272;
+    font-weight: 400;
+    margin-right: 40px;
+}
+
+.color-1 {
+    color: #131313;
+    font-weight: 800;
+}
+
+.color-2 {
+    color: #FF900E;
+    font-weight: 800;
+}
+
+.feature-list-info p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 0;
 }
