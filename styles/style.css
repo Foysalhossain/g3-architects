@@ -281,6 +281,49 @@ header {
     filter: grayscale(100%);
 }
 
+/* meet engineer style */
+.meet-engineer {
+    width: 80%;
+    margin: 100px auto;
+
+}
+
+.meet-engineer h2 {
+    font-size: 35px;
+    text-align: center;
+    margin: 40px;
+}
+
+.engineers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.engineer-box {
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+}
+
+.engineer-box img {
+    width: 100%;
+}
+
+.engineer-box h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.engineer-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #727272;
+}
+
+/* footer style */
 footer {
     width: 80%;
     margin: 50px auto;
