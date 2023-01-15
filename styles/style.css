@@ -248,3 +248,34 @@ header {
     background-color: #FF900E;
     color: #FFFFFF;
 }
+
+/* sponsor area style */
+.sponsor {
+    width: 80%;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.sponsor-description h2 {
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.sponsor-description p {
+    font-size: 16px;
+    color: #727272;
+    width: 40%;
+    margin: 20px auto;
+    line-height: 26px;
+}
+
+.sponsor-img {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsor-img img {
+    width: auto;
+    height: 40px;
+}
