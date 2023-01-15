@@ -278,4 +278,18 @@ header {
 .sponsor-img img {
     width: auto;
     height: 40px;
+    filter: grayscale(100%);
+}
+
+footer {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.footer-area {
+    background-color: #FFF4E7;
+    padding: 40px 400px;
+    color: #424242;
+    border-radius: 7px;
 }
